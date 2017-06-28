@@ -60,3 +60,7 @@ gem 'execjs'
 # Twitter社が提供しているCSSとJavaScriptのフレームワーク
 gem 'twitter-bootstrap-rails'
 
+# twitterログイン機能を追加
+gem 'omniauth'
+gem 'omniauth-twitter'
+
