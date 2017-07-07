@@ -57,10 +57,16 @@ gem 'therubyracer'
 # JavaScriptコードを実行するためのエンジン
 gem 'execjs'
 
+gem 'jquery-rails'
+
 # Twitter社が提供しているCSSとJavaScriptのフレームワーク
 gem 'twitter-bootstrap-rails'
 
 # twitterログイン機能を追加
 gem 'omniauth'
 gem 'omniauth-twitter'
+
+# デバッグ
+gem 'ruby-debug-ide'
+gem 'debase'
 
