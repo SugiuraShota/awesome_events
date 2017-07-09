@@ -61,7 +61,6 @@ gem 'jquery-rails'
 
 # Twitter社が提供しているCSSとJavaScriptのフレームワーク
 gem 'twitter-bootstrap-rails'
-
 # twitterログイン機能を追加
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -70,3 +69,15 @@ gem 'omniauth-twitter'
 gem 'ruby-debug-ide'
 gem 'debase'
 
+# ページネーション
+gem 'kaminari'
+gem 'kaminari-bootstrap'
+
+# 検索インターフェース
+gem 'ransack'
+
+# 画像添付
+gem 'carrierwave'
+
+# ImageMagick
+gem 'mini_magick'
