@@ -91,4 +91,6 @@ group :test do
   gem 'shoulda-matchers'
   gem 'rails-controller-testing'
   gem 'capybara'
+  gem 'poltergeist', '~> 1.5.0'
+  gem 'database_cleaner', '~> 1.2.0'
 end
