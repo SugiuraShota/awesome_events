@@ -82,6 +82,14 @@ gem 'carrierwave'
 # ImageMagick
 gem 'mini_magick'
 
+group :development do
+  gem "capistrano", "3.4.0"
+  gem "capistrano-rails"
+  gem "capistrano-bundler"
+  gem "capistrano3-unicorn"
+
+end
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
